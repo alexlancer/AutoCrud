@@ -1,0 +1,35 @@
+{
+    "name": "alexlancer/autocrud",
+    "description": "AutoCrud Library for Codeigntier 4",
+    "type": "library",
+    "keywords": [
+		"codeigniter",
+		"codeigniter 4",
+		"crud",
+		"auto crud"
+	],
+    "require": {
+		"codeigniter4/framework": "^4",
+		"php": "^7.3 || ^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alexlancer\\Autocrud\\": "src/"
+        },
+		"exclude-from-classmap": [
+			"**/Database/Migrations/**"
+		]
+    },
+    "authors": [
+        {
+            "name": "Alex Lancer",
+            "email": "alex@alexlancer.com",
+			"homepage": "https://www.alexlancer.com",
+			"role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+	"prefer-stable": true
+
+}
