@@ -4,7 +4,7 @@ namespace Alexlancer\Autocrud\Libraries;
 
 use Alexlancer\Autocrud\Models\CrudModel;
 use CodeIgniter\HTTP\RequestInterface;
-
+ 
 class Crud_core
 {
     protected $schema, // table schema
