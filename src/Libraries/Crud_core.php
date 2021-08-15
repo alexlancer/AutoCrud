@@ -1,5 +1,5 @@
 <?php
-
+//stable
 namespace Alexlancer\Autocrud\Libraries;
 
 use Alexlancer\Autocrud\Models\CrudModel;
